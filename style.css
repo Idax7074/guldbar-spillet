@@ -1,0 +1,178 @@
+body {
+  font-family: myriad-pro, sans-serif;
+  font-style: normal;
+  font-size: 1.4rem;
+  color: #ffffff;
+  background-color: #003f4c;
+}
+
+main {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 10px;
+}
+
+.col2 {
+  max-width: 90%;
+}
+
+.col3 {
+  max-width: 150%;
+  padding-right: 10px;
+}
+
+.col4 {
+  max-width: 78%;
+  padding-left: 45px;
+}
+
+.col5 {
+  max-width: 94%;
+}
+
+.col6 {
+  max-width: 67%;
+  padding-left: 70px;
+}
+
+.col7 {
+  max-width: 95%;
+}
+
+.col8 {
+  max-width: 83.5%;
+  padding-left: 30px;
+}
+
+.col9 {
+  max-width: 60%;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.forside2 {
+  max-width: 80%;
+  align-self: center;
+}
+
+.kasse {
+  background-color: #ee9b00e5;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 30px 0px 0px 0px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.elementer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.elementer img {
+  width: 200px;
+  height: 120px;
+}
+
+.spil_elementer img {
+  width: 200px;
+  height: 120px;
+}
+
+.shot img {
+  width: 70px;
+  height: 100x;
+}
+
+.spil_elementer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.UI_elementer img {
+  width: 200px;
+  height: 120px;
+}
+
+.UI_elementer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@font-face {
+  font-family: "tekst";
+  src: url("trirong-light-webfont.woff2") format("woff2");
+}
+
+nav {
+  --less-than: 700;
+  --burger-lines: white;
+  --burger-border: var(--burger-lines);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  list-style: none;
+}
+
+a:hover {
+  color: #e7e7e7;
+}
+
+@media (min-width: 500px) {
+  header {
+    position: sticky;
+    top: 0;
+    padding: 1rem 2rem;
+    box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    background-color: #014e5d;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.4rem;
+    gap: 30px;
+    overflow-x: auto;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  a:hover {
+    color: #e7e7e7;
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    padding-inline: 15px;
+  }
+}

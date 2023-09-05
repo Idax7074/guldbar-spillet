@@ -1,0 +1,179 @@
+/*God animation*/
+
+/*Klasse som tildeles det element som skal animeres*/
+.forstoer_hop {
+  animation-name: forstoer_hop_kf; /*Animationens navn*/
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+/*Animationens keyframe*/
+/*Fra en tilstand til en anden*/
+@keyframes forstoer_hop_kf {
+  0% {
+    transform: translateY(0%) scale(0);
+  }
+
+  10% {
+    transform: translateY(-30%) scale(1);
+  }
+  20% {
+    transform: translateY(0%);
+  }
+}
+
+.drej_skrump {
+  animation-name: drej_skrump_kf;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes drej_skrump_kf {
+  0% {
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 0 40px rgb(255, 255, 110));
+  }
+  100% {
+    transform: scale(0) rotate(360deg);
+    filter: drop-shadow(0 0 40px rgb(255, 255, 110));
+  }
+}
+
+/*Animation til begge*/
+.frys {
+  animation-play-state: paused;
+}
+
+.fade_out {
+  animation-name: fade_out_kf;
+  animation-duration: 0.8s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fade_out_kf {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.delay0 {
+  animation-delay: 0s;
+}
+
+.delay1 {
+  animation-delay: 0.5s;
+}
+
+.delay2 {
+  animation-delay: 1s;
+}
+
+.delay3 {
+  animation-delay: 1.5s;
+}
+
+.delay4 {
+  animation-delay: 2s;
+}
+
+/*Ond animation*/
+
+.drej_skrump2 {
+  animation-name: drej_skrump2_kf;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes drej_skrump2_kf {
+  0% {
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 0 40px rgb(255, 90, 90));
+  }
+  100% {
+    transform: scale(0) rotate(-360deg);
+    filter: drop-shadow(0 0 40px rgb(255, 90, 90));
+  }
+}
+
+/*Baggrunds animation*/
+.drej {
+  animation-name: drej_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes drej_kf {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*Tid animation*/
+.minut_animation {
+  animation-name: min_kf;
+  animation-duration: 30s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+@keyframes min_kf {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.blink {
+  animation-name: blink_kf;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes blink_kf {
+  0% {
+    filter: saturate(0%) brightness(0%) blur(0px);
+  }
+  10% {
+    filter: saturate(100%) brightness(100%) blur(0px);
+  }
+  20% {
+    filter: saturate(0%) brightness(0%) blur(0px);
+  }
+  50% {
+    filter: saturate(100%) brightness(100%) blur(2px);
+  }
+  65% {
+    filter: saturate(0%) brightness(0%) blur(0px);
+  }
+  75% {
+    filter: saturate(100%) brightness(100%) blur(2px);
+  }
+  80% {
+    filter: saturate(0%) brightness(0%) blur(0px);
+  }
+  95% {
+    filter: saturate(100%) brightness(100%) blur(2px);
+  }
+  100% {
+    filter: saturate(100%) brightness(100%) blur(2px);
+  }
+}

@@ -1,0 +1,351 @@
+.hide {
+  display: none;
+}
+
+#screen {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#start {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(svg/startskærm.svg);
+}
+
+#guldbar-skilt_container {
+  width: 60%;
+  aspect-ratio: 1300/390;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+#guldbar-skilt_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/guldbar_skilt.svg);
+  background-size: 100%;
+}
+
+#spil_knap {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 65%;
+  left: 20%;
+  background-image: url(svg/spil.svg);
+}
+
+#info_knap {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  background-image: url(svg/start.svg);
+}
+
+#info {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(svg/Artboard\ 9.svg);
+}
+
+#benedikte-arm_container {
+  width: 14%;
+  aspect-ratio: 265/235;
+  position: absolute;
+  top: 38%;
+  left: 13%;
+}
+
+#benedikte-arm_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/oel_arm.svg);
+  background-size: 100%;
+}
+
+#benedikte-krop_container {
+  width: 14%;
+  aspect-ratio: 250/715;
+  position: absolute;
+  top: 29.4%;
+  left: 2%;
+}
+
+#benedikte-krop_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/benedikte.svg);
+  background-size: 100%;
+}
+
+#spil_knap2 {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  background-image: url(svg/spil.svg);
+}
+
+#game_over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(svg/taberskærm.svg);
+}
+
+#game_over_points {
+  position: absolute;
+  top: 36%;
+  left: 35%;
+}
+
+#proev-igen_knap {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  background-image: url(svg/proev_igen.svg);
+}
+
+#level_complete {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(svg/vinderskærm.svg);
+}
+
+#level_complete_points {
+  position: absolute;
+  top: 36%;
+  left: 38%;
+}
+
+#spil-igen_knap {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  background-image: url(svg/spil_igen.svg);
+}
+
+#game_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(svg/spilskærm.svg);
+  background-size: cover;
+}
+
+#game_elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+#hjul_container {
+  width: 22%;
+  aspect-ratio: 460/460;
+  position: absolute;
+  top: 12.2%;
+  left: 9.2%;
+}
+
+#hjul_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/hjul.svg);
+  background-size: 100%;
+}
+
+#pil_container {
+  width: 5%;
+  aspect-ratio: 85/185;
+  position: absolute;
+  top: 13.5%;
+  left: 17.6%;
+}
+
+#pil_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/pil.svg);
+  background-size: 100%;
+}
+
+#oel_container {
+  width: 8%;
+  aspect-ratio: 140/220;
+  position: absolute;
+}
+
+#oel_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/oel.svg);
+  background-size: 100%;
+}
+
+#drink_container {
+  width: 7%;
+  aspect-ratio: 130/260;
+  position: absolute;
+}
+
+#drink_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/drink.svg);
+  background-size: 100%;
+}
+
+#shot_container {
+  width: 8%;
+  aspect-ratio: 100/120;
+  position: absolute;
+}
+
+#shot_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/shot.svg);
+  background-size: 100%;
+}
+
+#vand_container {
+  width: 8%;
+  aspect-ratio: 145/260;
+  position: absolute;
+}
+
+#vand_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/vand.svg);
+  background-size: 100%;
+}
+
+#sodavand_container {
+  width: 8%;
+  aspect-ratio: 140/220;
+  position: absolute;
+}
+
+#sodavand_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/sodavand.svg);
+  background-size: 100%;
+}
+
+#time_board {
+  position: relative;
+  margin: 5%;
+  width: 25%;
+  top: -5%;
+  left: 68%;
+  aspect-ratio: 350/350;
+}
+
+#urskive {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(svg/tid.svg);
+  background-size: cover;
+}
+
+#minut_viser {
+  position: absolute;
+  aspect-ratio: 100/140;
+  top: 10%;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+  border-radius: 50%;
+  transform-origin: bottom center;
+  background-image: url(svg/viser.svg);
+  background-size: cover;
+}
+#score_board {
+  width: 5.5%;
+  aspect-ratio: 100/130;
+  position: absolute;
+  top: 75%;
+  left: 93%;
+  background-image: url(svg/flaske.svg);
+  background-size: cover;
+}
+
+#life_board {
+  width: 5.5%;
+  aspect-ratio: 100/100;
+  position: absolute;
+  top: 88%;
+  left: 93%;
+  background-image: url(svg/liv.svg);
+  background-size: cover;
+}
+
+.pos1 {
+  top: 50%;
+  left: 10%;
+}
+
+.pos2 {
+  top: 50%;
+  left: 30%;
+}
+
+.pos3 {
+  top: 50%;
+  left: 50%;
+}
+
+.pos4 {
+  top: 50%;
+  left: 70%;
+}
+
+.pos5 {
+  top: 50%;
+  left: 85%;
+}
